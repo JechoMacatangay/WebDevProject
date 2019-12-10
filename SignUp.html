@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Website</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="Home.css">
+<link rel="stylesheet" type="text/css" href="SignUp.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="header">
+</div>
+
+
+<div class="navbar">
+  <a href="Index.html">Home</a>
+  <a href="SignUp.html">Sign Up</a>
+  <a href="About.html">About</a>
+  <a href="Event.html">Event</a>
+</div>
+
+<div class="login">
+  <div class="login-header">
+    <h1>Login</h1>
+  </div>
+  <div class="login-form">
+<form action ="contactform.php" method ="post">
+    <h3>E-mail:</h3>
+<input type="text" name="email" placeholder="write your email..">		
+		<br><br>
+    <h3>Contact Number:</h3>
+<input type="text" name="Contact Number">		
+		<br><br>
+    <h3>Gender:</h3>
+		Male: <input type="radio" name="gender" value="male" checked>
+		<br><br>
+		Female: <input type="radio" name="gender" value="female">
+		<br><br>
+		Other: <input type="radio" name="gender" value="Other">
+		<br><br>
+		Password: <input type="password" name="pwd" placeholder="password">
+    <br><br><br>
+    <input type="button" value="Login" class="login-button"/>
+    <br><br>
+  </div>
+ </form>
+</div>
+
+</body>
+</html>
